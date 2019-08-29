@@ -1,0 +1,18 @@
+.nav {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 40px;
+}
+
+.logo__letter {
+	color: var(--color-secondary);
+	font-size: 25rem;
+	font-weight: bold;
+	display: block;
+}
+
+.brightness {
+	transform: scale(0.8);
+}
