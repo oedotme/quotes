@@ -5,7 +5,7 @@ import TwitterIcon from '../../assets/icons/twitter.svg'
 
 import styles from './styles.css'
 
-const Quote = ({ quote, author }) => {
+const Quote = ({ quote, author, onClick }) => {
 	return (
 		<main className={styles.quote}>
 			<div className={styles.quote__content}>
@@ -22,10 +22,7 @@ const Quote = ({ quote, author }) => {
 				</div>
 			</div>
 
-			<button
-				className={styles.quote__new}
-				onClick={() => console.log(':: Clicked ::')}
-			>
+			<button className={styles.quote__new} onClick={onClick}>
 				<img src={QuotesIcon} alt="new quote" />
 			</button>
 		</main>
