@@ -15,4 +15,11 @@
 
 .brightness {
 	transform: scale(0.8);
+	transition: transform, filter 0.15s ease-in-out;
+}
+
+.brightness:hover {
+	filter: brightness(110%);
+	cursor: pointer;
+	transform: scale(0.9);
 }

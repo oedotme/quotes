@@ -33,10 +33,13 @@
 
 .quote__tweet {
 	transform: scale(0.8);
+	transition: transform 0.15s ease-in-out;
 }
 
 .quote__tweet:hover {
-	filter: brightness(95%);
+	outline: none;
+	transform: scale(0.9);
+	filter: brightness(110%);
 }
 
 .quote__new {
@@ -45,9 +48,16 @@
 	margin: 40px;
 	align-self: flex-end;
 	transform: scale(0.8);
+	transition: transform 0.15s ease-in-out;
 }
 
 .quote__new:focus,
 .quote__new:active {
 	outline: none;
+}
+
+.quote__new:hover {
+	filter: brightness(110%);
+	cursor: pointer;
+	transform: scale(0.9);
 }
