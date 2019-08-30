@@ -6,20 +6,17 @@
 	margin: 40px;
 }
 
-.logo__letter {
-	color: var(--color-secondary);
-	font-size: 25rem;
-	font-weight: bold;
-	display: block;
+.logo {
+	transform: scale(0.6);
 }
 
 .brightness {
-	transform: scale(0.8);
+	transform: scale(0.7);
 	transition: transform, filter 0.15s ease-in-out;
 }
 
 .brightness:hover {
 	filter: brightness(110%);
 	cursor: pointer;
-	transform: scale(0.9);
+	transform: scale(0.8);
 }

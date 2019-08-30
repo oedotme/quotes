@@ -1,7 +1,7 @@
 :root {
 	--color-primary: #38408a;
 	--color-secondary: #8e92b7;
-	--color-white: #e5e5e5;
+	--text-color: #e5e5e5;
 	--font-family: 'Bree Serif', serif;
 }
 
@@ -25,6 +25,8 @@ html {
 	background: var(--color-primary);
 	font-family: var(--font-family);
 	font-size: 6.25%;
+
+	transition: background 0.2s ease-in-out;
 }
 
 body {
